@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_register"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Registro Jugador"/>
+    <item
+        android:id="@+id/nav_list"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Lista"/>
+</menu>

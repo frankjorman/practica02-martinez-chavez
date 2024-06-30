@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_register">
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.practica02_martinez_chavez.Fragment_Registro_Jugador"
+        android:label="Register"
+        tools:layout="@layout/fragment__registro__jugador" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.practica02_martinez_chavez.ListPlayersFragment"
+        android:label="List"
+        tools:layout="@layout/fragment_list_players" />
+</navigation>

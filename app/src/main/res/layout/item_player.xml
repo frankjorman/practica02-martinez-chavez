@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPlayerPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Position" />
+
+    <TextView
+        android:id="@+id/textViewPlayerDorsal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Dorsal" />
+
+    <ImageView
+        android:id="@+id/imageViewPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+</LinearLayout>
